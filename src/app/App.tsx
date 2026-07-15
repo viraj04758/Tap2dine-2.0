@@ -204,7 +204,20 @@ style={{ fontFamily: josefin }}
 >
 BOOK A TABLE
 </button>
-</div>
+          {/* QR Ordering App entry */}
+          <a
+            href="/app?table=1"
+            className="flex items-center gap-1.5 px-4 py-2 rounded-full text-[10px] font-bold tracking-[0.12em] transition-all duration-300 hover:scale-105"
+            style={{
+              background: "#FF6B35",
+              color: "white",
+              fontFamily: josefin,
+              boxShadow: "0 2px 12px rgba(255,107,53,0.4)",
+            }}
+          >
+            📱 ORDER NOW
+          </a>
+        </div>
 {/* mobile burger */}
 <button
 className="md:hidden ml-auto text-foreground"
@@ -237,7 +250,16 @@ style={{ fontFamily: josefin }}
 BOOK A TABLE
 </button>
 </li>
-</ul>
+          <li>
+            <a
+              href="/app?table=1"
+              className="flex items-center gap-2 px-6 py-2.5 rounded text-[10px] tracking-[0.18em] font-bold"
+              style={{ background: "#FF6B35", color: "white", fontFamily: josefin }}
+            >
+              📱 ORDER NOW
+            </a>
+          </li>
+          </ul>
 </div>
 )}
 </header>
@@ -304,7 +326,20 @@ style={{ fontFamily: josefin }}
 >
 BOOK A TABLE
 </button>
-</div>
+          {/* QR Order CTA */}
+          <a
+            href="/app?table=1"
+            className="flex items-center gap-2 px-8 py-3 text-[11px] tracking-[0.18em] font-bold transition-all duration-300 hover:scale-105"
+            style={{
+              background: "#FF6B35",
+              color: "white",
+              fontFamily: josefin,
+              boxShadow: "0 4px 24px rgba(255,107,53,0.45)",
+            }}
+          >
+            📱 SCAN TO ORDER
+          </a>
+        </div>
 </div>
 </section>
 {/* ══════════════════════════════════════════
